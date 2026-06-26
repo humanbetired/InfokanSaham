@@ -316,16 +316,6 @@ Data sources are entirely free and publicly accessible — no paid subscriptions
 
 ---
 
-## Future Work
-
-- Fine-tune a dedicated Indonesian financial sentiment model using manually labeled data
-- Add real-time data ingestion with scheduled Airflow DAGs (infrastructure already in place)
-- Integrate position sizing and risk management into the backtesting engine
-- Expand coverage to all LQ45 constituents
-- Add walk-forward validation to reduce look-ahead bias in backtesting
-
----
-
 ## License
 
 This project is intended for educational and portfolio purposes.
