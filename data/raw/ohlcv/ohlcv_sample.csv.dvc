@@ -1,0 +1,5 @@
+outs:
+- md5: 56582991552799f911991c4f60956501
+  size: 1279000
+  hash: md5
+  path: ohlcv_sample.csv

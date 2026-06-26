@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary:        #0052FF;
+  --primary-hover:  #003ECB;
+  --secondary:      #5B616E;
+  --neutral:        #8A919E;
+  --background:     #F9FAFB;
+  --surface:        #FFFFFF;
+  --text-primary:   #050F1A;
+  --text-secondary: #5B616E;
+  --border:         #D1D5DB;
+  --success:        #05B169;
+  --warning:        #F0AD4E;
+  --error:          #DF2935;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.chip-positive {
+  background: #E6F6EF;
+  color: #05B169;
+}
+
+.chip-negative {
+  background: #FDECEE;
+  color: #DF2935;
+}
+
+.chip-neutral {
+  background: #F3F4F6;
+  color: #5B616E;
+}
+
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}

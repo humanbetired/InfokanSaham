@@ -1,0 +1,5 @@
+outs:
+- md5: 4cd2639f30dfd3bf85c8d8bfb4309e5e
+  size: 843680
+  hash: md5
+  path: lstm_best.pt

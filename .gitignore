@@ -1,0 +1,34 @@
+# Environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts (DVC tracked)
+models/artifacts/*.pt
+models/artifacts/*.pkl
+models/artifacts/*.npy
+models/artifacts/finbert/
+
+# MLflow
+mlops/mlruns/
+
+# Data lengkap (hanya sample yang di-commit)
+data/raw/ohlcv/ohlcv_full.csv
+data/processed/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# OS
+.DS_Store
+Thumbs.db
